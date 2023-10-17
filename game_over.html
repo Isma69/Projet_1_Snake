@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="game.css" />
+    <title>S5S - Game Over</title>
+    <link rel="icon" type="image/png" href="./assets/snakeHeadDown.png" />
+  </head>
+  <body>
+    <header></header>
+
+    <div id="gameOver">
+      <h1>GAME OVER</h1>
+      <div class="scoreOver">
+        <h2><span id="score">0</span>Pts</h2>
+      </div>
+    </div>
+
+    <div class="gamerName">
+      <form>
+        <label for="nameInput"> Your Name :</label>
+
+        <div class="inputGamer">
+          <input id="nameInput" type="text" />
+          <button type="submit" id="nameInputBtn">&#10132;</button>
+        </div>
+      </form>
+    </div>
+
+    <nav>
+      <ul class="gridNav">
+        <li>
+          <a href="./index.html"
+            ><img src="assets/home.png" class="icons mobile" alt="icon home" />
+            <div class="desktop">Home</div></a
+          >
+        </li>
+        <li>
+          <a href="./setting.html"
+            ><img
+              src="assets/setting-outlined.png"
+              class="icons mobile"
+              alt="icon setting"
+            />
+            <div class="desktop">Setting</div></a
+          >
+        </li>
+        <li>
+          <a href="./game.html"
+            ><img
+              src="assets/play-circle-outlined.png"
+              class="icons mobile"
+              id="iconPlay"
+              alt="icon play"
+            />
+            <div class="desktop">Play</div></a
+          >
+        </li>
+        <li>
+          <a href="./score.html"
+            ><img src="assets/star.png" class="icons mobile" alt="icon score" />
+            <div class="desktop">Score</div></a
+          >
+        </li>
+        <li>
+          <a href="./about.html"
+            ><img
+              src="assets/person.png"
+              class="icons mobile"
+              alt="icon about us"
+            />
+            <div class="desktop">About Us</div></a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <footer class="desktop"><p>&#169; Super 5 Snake - Version 1.00</p></footer>
+
+    <script src="game_over.js"></script>
+  </body>
+</html>
